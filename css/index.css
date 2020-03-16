@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+body {
+    font-family: 'Slabo 27px', serif;
+}
+
+.content {
+    padding: 40px 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+    > ul
+
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+    background: #68DE78;
+    > li
+
+{
+    &.more > a .fa
+
+{
+    color: yellow;
+}
+
+&.hidden {
+    display: none;
+}
+
+display: inline-block;
+position: relative; > a {
+    border-right: 1px dashed lighten(#68DE78,25%);
+}
+
+a {
+    font-size: 1rem;
+    display: block;
+    background: #68DE78;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    .fa
+
+{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
++ ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-right: 0;
+    li
+
+{
+    margin-top: 1px;
+    a
+
+{
+    padding-left: 16px;
+    text-align: left;
+    white-space: nowrap;
+    .fa
+
+{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+}
+
+a:hover {
+    background: darken(#68DE78,20%);
+}
+
+}
+}
+}
+
+&:hover {
+    > a
+
+{
+    background: darken(#68DE78,20%);
+}
+
+ul {
+    display: block;
+}
+
+}
+}
+}
+}

@@ -5,6 +5,7 @@ Sample css code
 body,
 html {
   height: 100%;
+  font-family:sans-serif;
 }
 
 /*Set background image*/
