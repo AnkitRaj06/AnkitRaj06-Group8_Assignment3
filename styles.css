@@ -1,0 +1,60 @@
+#id1 {
+    background-color: #000;
+    background-image: url("https://ak3.picdn.net/shutterstock/videos/1023588883/thumb/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 40%;
+    text-align: center;
+}
+
+.header {
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    color: #808080;
+}
+
+.navigationbar {
+    width: 75%;
+    background-color: #808080;
+    margin-right: auto;
+    margin-left: auto;
+    position: fixed;
+}
+    .navigationbar a {
+        text-align: center;
+        padding: 1% 2%;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        margin-right: 50px;
+        display: inline-block;
+        float: center;
+        top: 50%;
+        left: 50%;
+    }
+
+        .navigationbar a:hover {
+            background-color: #808080;
+        }
+
+#id2 {
+    background-color: #808080;
+}
+
+.id2-h3 {
+    padding: 2% 30%;
+    color: #fff;
+}
+
+.para {
+    text-align: center;
+    padding: 2% 10%;
+    color: #fff;
+}
+
+
+
+
